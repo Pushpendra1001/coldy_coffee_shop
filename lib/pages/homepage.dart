@@ -35,6 +35,8 @@ class homepage extends StatelessWidget {
         ),
       ),
     bottomNavigationBar: const GNav(
+      color: Colors.white,
+      activeColor: Colors.black,
       tabs: [
       GButton(icon: Icons.home),
       GButton(icon: Icons.search),
